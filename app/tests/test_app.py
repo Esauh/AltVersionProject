@@ -11,9 +11,7 @@ from app.tests.select_tracks_page.select_tracks_page import SelectTracks
 from app.tests.fine_tune.fine_tune import FineTune
 from app.tests.your_playlist.your_playlist import YourPlaylist
 import multiprocessing
-
-SPOTIFY_USERNAME = 'ninjachucks12'
-SPOTIFY_PASSWORD = 'Esau121701'
+from secrets import SPOTIFY_USERNAME, SPOTIFY_PASSWORD
 
 driver = webdriver.Chrome(ChromeDriverManager().install)
 
